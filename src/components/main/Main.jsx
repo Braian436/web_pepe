@@ -14,6 +14,7 @@ export default function Main() {
         de los clientes y organizar de manera eficiente los horarios de atención de cada barbero.
         </p>
         <h3>Profesionales activos</h3>
+        <section>
         <Cardboostrap 
         nom_barber={"Marquitos Navaja"} 
         img_perfil ={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBwI7jH4wyS9-oBZzEmAriAF66vDVkSoIihgxEQ7DlKg&s=10"} 
@@ -39,7 +40,7 @@ export default function Main() {
         finish_hour={'22:00'} 
         id_barber={3}
         />
-
+      </section>
     </div>
   )
 }

@@ -2,7 +2,8 @@ import { useState } from 'react'
 
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
-import Main from './components/main/Main.jsx'
+import Main from './components/main/main.jsx'
+
 
 function App() {
   // const [count, setCount] = useState(0)
