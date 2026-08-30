@@ -14,6 +14,7 @@ Sistema web para una barbería que permite mostrar servicios, horarios y una exp
 ## Comandos para levantar el proyecto
 
 ```bash
+git clone https://github.com/Braian436/web_pepe.git
 npm install
 npm run dev
 ```
