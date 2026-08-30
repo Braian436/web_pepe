@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../assets/LOGO-BARBER.png";
 
 export default function Navbar() {
     return (
@@ -6,7 +7,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <a className="navbar-brand" href="#inicio">
-                        <img src={logo} alt="Barbería Clase A" style={{ height: "40px" }} />
+                        <img src={Logo} alt="Barbería Clase A" style={{ height: "90px" }} />
                     </a>
                     <button
                         className="navbar-toggler"
@@ -22,30 +23,30 @@ export default function Navbar() {
 
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <a
-                            className="nav-link active"
-                            aria-current="page"
-                            href="#inicio"
-                            >
-                            Inicio
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#servicios">
-                            Servicios
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#nosotros">
-                            Nosotros
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contacto">
-                            Contacto
-                            </a>
-                        </li>
+                            <li className="nav-item">
+                                <a
+                                className="nav-link active"
+                                aria-current="page"
+                                href="#inicio"
+                                >
+                                Inicio
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#servicios">
+                                Servicios
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#nosotros">
+                                Nosotros
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#contacto">
+                                Contacto
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
